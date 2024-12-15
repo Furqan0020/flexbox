@@ -1,1 +1,26 @@
-kjklj   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border : 1px solid red;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu{
+    display: flex;
+    list-style: none;
+    padding : 10px 15px;
+}
+
+nav .menu li ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
