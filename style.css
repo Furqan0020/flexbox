@@ -18,9 +18,18 @@ nav .menu{
     list-style: none;
     padding : 10px 15px;
 }
-
+nav .menu li{
+    display : inline-block;
+}
+nav .menu li a{
+    display: block;
+    text-decoration : none;
+    color : black;
+}
 nav .menu li ul{
     display: flex;
     flex-direction: column;
     list-style: none;
+    position: absolute;
 }
+
